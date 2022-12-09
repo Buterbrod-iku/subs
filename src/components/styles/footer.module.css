@@ -1,0 +1,23 @@
+.footer{
+    width: 100vw;
+    height: auto;
+    padding-bottom: 50px;
+    background: #070707;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.info_ip{
+    width: 30vw;
+    height: 20vh;
+    margin-left: 5vw;
+}
+.p_ip{
+    font-size: 20px;
+    padding-top: 50px;
+}
+.contact{
+    width: 20vw;
+    height: 20vh;
+    font-size: 20px;
+}

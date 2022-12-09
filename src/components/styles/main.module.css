@@ -1,0 +1,38 @@
+.main{
+    width: 100vw;
+    height: 93vh;
+    background: #262626;
+    color: white;
+}
+.block_text{
+    width: 33vw;
+    height: 93vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 30px;
+}
+.button{
+    background: #37aee2;
+    width: 20vw;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 25px;
+    font-family: monospace;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.button:hover{
+    width: 21vw;
+    padding: 12px;
+}

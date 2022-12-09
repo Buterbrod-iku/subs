@@ -1,0 +1,29 @@
+.header{
+    width: 100vw;
+    height: 7vh;
+    background: #1f1d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.logo{
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+}
+.position_menu{
+    display: flex;
+    margin-left: 100px;
+}
+.element_menu{
+    padding: 0 2vw;
+    font-size: 20px;
+    cursor: pointer;
+}
+.logo_image{
+    width: auto;
+    height: 250px;
+    margin-left: -20px;
+    margin-top: 10px;
+}
