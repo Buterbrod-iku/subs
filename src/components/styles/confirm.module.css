@@ -1,0 +1,78 @@
+.push{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.main{
+    width: 40vw;
+    height: auto;
+    background: white;
+    border-radius: 30px;
+    padding-bottom: 20px;
+}
+.position1{
+    width: 90%;
+    margin: 3% 0 3% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+
+}
+.text_close{
+    user-select: none;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.textarea{
+    width: 90%;
+    margin-left: 5%;
+    height: 40vh;
+    background: #ffffff;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.position2{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 20px;
+    height: 20px;
+}
+label{
+    margin-left: 10px;
+}
+.pos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background: #37aee2;
+    width: auto;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.button:disabled{
+    background: #8c8c8c;
+    cursor: default;
+}

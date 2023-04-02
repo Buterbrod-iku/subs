@@ -1,0 +1,22 @@
+.main_text{
+    width: 60vw;
+    height: auto;
+    margin: 10vh 0 10vh 20vw;
+}
+.main_title{
+    padding: 3vh 0;
+    font-size: 35px;
+
+}
+.full_text{
+    font-size: 20px;
+}
+.heading_title{
+    font-size: 25px;
+}
+@media (max-width: 500px){
+    .main_text{
+        width: 95vw;
+        margin: 10vh 2.5vw;
+    }
+}

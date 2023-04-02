@@ -1,0 +1,92 @@
+.footer{
+    width: 100vw;
+    height: auto;
+    padding-bottom: 50px;
+    background: #070707;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+}
+.info_ip{
+    width: 30vw;
+    margin-left: 5vw;
+    height: auto;
+}
+.p_ip{
+    font-size: 20px;
+    padding-top: 50px;
+}
+.polit{
+    font-size: 20px;
+    color: #949494;
+    text-decoration: none;
+}
+.polit_bor{
+    width: auto;
+    transition: 0.2s;
+}
+.polit_bor:hover{
+    color: white;
+}
+.contact{
+    width: 20vw;
+    height: 20vh;
+    font-size: 24px;
+    margin-right: 5vw;
+}
+.p_size{
+    padding-top: 50px;
+    font-size: 24px;
+}
+.button{
+    background: #37aee2;
+    width: 10vw;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: monospace;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.button:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 10px 0 white;
+}
+.tel{
+    text-decoration: none;
+    color: rgba(55, 174, 226, 0.98);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.tel:hover{
+    color: rgba(156, 178, 156, 0.98);
+}
+.copy_div{
+    width: 40px;
+    height: 40px;
+}
+.simvol{
+    transform: scale(1.5);
+}
+#copy{
+    opacity: 1;
+}
+@media (max-width: 500px){
+    .footer{
+        flex-direction: column;
+    }
+    .info_ip{
+        width: 90vw;
+    }
+    .contact{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    .button{
+        width: 90vw;
+    }
+}

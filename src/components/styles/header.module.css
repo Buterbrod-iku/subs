@@ -1,0 +1,54 @@
+.header{
+    width: 100vw;
+    height: 7vh;
+    background: #1f1d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.logo{
+    position: absolute;
+    left: 0;
+}
+.position_menu{
+    display: flex;
+    margin-left: 100px;
+}
+.element_menu{
+    padding: 0 2vw;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.element_menu:hover{
+    margin-top: -3px;
+}
+.logo_image{
+    width: auto;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+@media (max-width: 500px){
+    .header{
+        width: 100vw;
+        height: 30vh;
+        flex-direction: column;
+    }
+    .logo{
+        position: relative;
+    }
+    .logo_image{
+        margin: 0;
+    }
+    .position_menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .element_menu{
+        padding: 0.5vh 2vw;
+    }
+}

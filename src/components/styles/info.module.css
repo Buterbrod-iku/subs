@@ -1,0 +1,113 @@
+.block_info{
+    width: 50vw;
+    height: auto;
+    min-height: 30vh;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.9);
+    padding: 3vh 0;
+    margin: 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.bg{
+    width: 50vw;
+    height: 40vh;
+    background: white;
+    box-shadow: 0 0 60px white;
+    opacity: 0.9;
+    border-radius: 60px;
+    position: absolute;
+    z-index: 8;
+    left: 25vw;
+    top: 15vh;
+}
+.number{
+    font-size: 30px;
+    transform: scale(2.5);
+    font-family: Haettenschweiler;
+}
+.text{
+    font-size: 170%;
+    margin: 7vh 20px 0 20px;
+    text-align: center;
+}
+.text_title{
+    font-size: 30px;
+    transform: scale(2);
+    font-weight: bold;
+    font-family: "Segoe UI";
+}
+.aside{
+    background-color: #1c1c1e;
+    width: 100vw;
+    height: auto;
+    position: relative;
+    z-index: 4;
+    padding-bottom: 100px;
+}
+.heading{
+    text-align: center;
+    font-weight: normal;
+    padding: 30px;
+    font-size: 40px;
+    color: white;
+    z-index: 99;
+}
+.position{
+    display: flex;
+    align-items: center;
+    z-index: 99;
+}
+.position_last{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last_block{
+    width: 30vw;
+    height: auto;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+    padding: 3vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    background: #37aee2;
+    width: 10vw;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 25px;
+    font-family: monospace;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.button:hover{
+    transform: scale(1.05);
+}
+@media (max-width: 500px){
+    .block_info{
+        width: 90vw;
+    }
+    .position{
+        flex-direction: column;
+    }
+    .last_block{
+        width: 90vw;
+        margin-top: 50px;
+    }
+    .button{
+        width: 90%;
+    }
+}
